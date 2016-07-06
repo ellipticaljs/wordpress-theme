@@ -1,0 +1,6 @@
+@include ui-sticky-footer();
+footer[data-role=footer]{
+  margin-bottom:1em;
+  font-size:14px;
+  padding-top:8em;
+}

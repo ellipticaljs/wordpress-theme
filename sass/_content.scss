@@ -1,0 +1,13 @@
+section{
+  &.outer{
+    padding-top:6em;
+    min-height:500px;
+  }
+  &.index{
+    padding-top:80px;
+    min-height:270px;
+    background:map-get($Color,bar);
+    color:#fff;
+
+  }
+}

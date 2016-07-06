@@ -1,0 +1,43 @@
+{
+  "name": "wordpress-theme",
+  "description": "",
+  "main": "",
+  "authors": [
+    "S. Francis <sfrancis@misinteractive.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "prototype"
+  ],
+  "moduleType": [],
+  "homepage": "https://github.com/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "elliptical-polymer-behaviors": "~1.2.1",
+    "ui-components": "~1.2.0",
+    "md-components": "~1.2.0",
+    "elliptical-dom-event": "~1.0.14",
+    "elliptical-browser": "~1.1.0",
+    "md-fonts": "~1.0.2",
+    "elliptical-date-helpers": "~1.0.5",
+    "silicon-form": "~1.2.0",
+    "sass-animations": "~1.0.3",
+    "moment-import": "~1.0.0",
+    "jquery-ui-import": "~1.0.1",
+    "paper-elements": "PolymerElements/paper-elements#~1.0.7",
+    "elliptical-notification": "~1.0.3",
+    "elliptical-viewdata": "~1.0.3",
+    "md-select-lists": "~1.2.0",
+    "paper-autocomplete": "~1.0.5",
+    "md-notification":"~1.0.0",
+    "flex-table":"~1.0.0"
+  }
+}

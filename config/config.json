@@ -1,0 +1,15 @@
+{
+  "sassApp": "./style.scss",
+  "sassSrc": "./wp-content/themes/sass/**/*.scss",
+  "cssDest": "./wp-content/themes/my-theme",
+  "devPath": "./public",
+  "devPort": "9040",
+  "devHost": "127.0.0.1",
+  "appScriptPath": "./wp-content/themes/my-theme/app",
+  "binScriptPath": "./wp-content/themes/my-theme/bin",
+  "importSrc": "./wp-content/themes/my-theme/imports",
+  "vulcanDest": "./wp-content/themes/my-theme/vulcanized",
+  "stripExcludes": "false",
+  "inlineScripts": "true",
+  "inlineCss": "true"
+}

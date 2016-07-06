@@ -1,0 +1,28 @@
+@import "variables";
+
+@include touch-toggle-menu();
+@include mixins-template();
+
+@include ui-topbar($map:(position:relative)){
+  @include ui-menu(){
+    &>menu-item-dropdown>a,&>menu-item>a{
+      color:#fff;
+      &:hover{
+         color:rgba(255,255,255,.8);
+      }
+    }
+    @include ui-dropdown(){
+      border:0;
+      box-shadow:map-get($MD-Depth,2);
+      top:85%;
+    };
+    ui-brand{
+      @include justify-content(flex-start);
+    }
+  }
+};
+
+@include ui-social(){
+
+};
+
